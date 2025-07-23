@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "target": "es2017",
+        "module": "commonjs",
+        "moduleResolution": "node",
+
+        "strict": true,
+        "sourceMap": true,
+        "declaration": true,
+        "noUnusedLocals": true,
+        "allowSyntheticDefaultImports": true,
+
+        "outDir": "dist", // If you modify this be sure to update the `run` file(s)!
+        "baseUrl": "./",
+    },
+    "include": [
+        "src/**/*.ts",
+    ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "joueur.js",
+  "version": "1.0.0",
+  "description": "JavaScript client for the Cerveau game server.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/siggame/Joueur.js"
+  },
+  "private": true,
+  "dependencies": {
+    "argparse": "1.0.10",
+    "netlinkwrapper": "1.2.0",
+    "sync-socket": "1.1.0",
+    "syntax-error": "1.4.0"
+  },
+  "optionalDependencies": {
+    "netlinkwrapper": "1.2.0"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "scripts": {
+    "start": "node main.js"
+  }
+}
